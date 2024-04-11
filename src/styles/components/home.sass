@@ -1,0 +1,100 @@
+@use '../mixins'
+@use '../variables'
+
+.home
+    width: 100%
+    height: 100vh
+    padding-top: 5rem 
+
+    @include mixins.center
+
+    background-image: url('/img/background1.jpg')
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+
+    z-index: 1
+
+    .content
+        width: 1200px
+
+        @include mixins.center
+        flex-direction: column
+
+        z-index: 2
+
+        img
+            width: 180px
+            margin-bottom: 0.5rem
+            border-radius: 100%
+            box-shadow: 0 0 40px variables.$white_color_4
+
+        h2
+            margin: 1rem 0
+            font-size: 2.8rem
+            color: variables.$white_color_1
+
+        p
+            margin-bottom: 0.5rem
+            font-size: 1.8rem
+            color: variables.$blue_color_1
+            font-weight: bold
+
+        span
+            font-size: 1rem
+            font-weight: 500
+            color: variables.$white_color_1    
+
+        .button
+            margin-top: 3rem
+            transition: 0.5s ease-in-out
+
+            a
+                @include mixins.button
+
+            &:hover
+                transform: scale(1.1)
+
+                a
+                    background-color: variables.$blue_c1_hover
+
+        .links
+            margin-top: 2rem
+
+            a
+                svg
+                    width: 30px
+                    height: 30px
+                    margin: 0 0.9rem
+
+                    fill: variables.$white_color_3
+                    transition: 0.3s ease-in-out
+
+                    &:hover
+                        fill: variables.$white_color_1
+                        transform: scale(1.2)
+
+    .shadow
+        position: absolute
+        width: 100%
+        height: 100vh
+
+        background: linear-gradient(0deg, variables.$black_color_1 8%, rgba(0,0,0,0.0) 80%)
+
+
+@media (max-width: 880px)
+    .home
+        align-items: flex-start
+        .content
+            width: 100%
+            padding: 0 3rem
+            text-align: center 
+
+            img
+                width: 150px 
+
+            h2
+                font-size: 2rem  
+
+            p
+                font-size: 1.5rem      
