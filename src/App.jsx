@@ -113,8 +113,8 @@ function App() {
               </p>
 
               <div className='buttons_project'>
-                <a href="#">Site</a>
-                <a href="#">Github</a>
+                <a href="https://netflix-clone-dev.netlify.app/" target='_blank'>Site</a>
+                <a href="https://github.com/victoorsoaressq/Netflix-Clone" target='_blank'>Github</a>
               </div>
 
             </div>
