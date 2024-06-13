@@ -15,9 +15,9 @@ Conheça meu portfólio
 ## Screenshots
 
 <div style="display: inline_block">
-    <img width="200" src="./Assets/Screenshots/screen01.png">
-    <img width="200" src="./Assets/Screenshots/screen02.png">
-    <img width="200" src="./Assets/Screenshots/screen03.png">
+    <img width="500" src="./Assets/Screenshots/screen01.png">
+    <img width="500" src="./Assets/Screenshots/screen02.png">
+    <img width="500" src="./Assets/Screenshots/screen03.png">
 </div>
 
 ## Author
