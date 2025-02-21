@@ -7,7 +7,7 @@ function Footer() {
                 <div className="footer_sobre">
                     <h2>Victor Soares</h2>
                     <p>
-                        Gosto de ver o mundo através de linhas de códigos, com bastante estudo e criatividade crio e copio páginas web em busca de me tornar um especialista em IOS.
+                        Gosto de ver o mundo através de linhas de códigos, com bastante estudo e criatividade crio e copio sites em busca de me tornar um especialista em desenvolvimento web.
                     </p>
                 </div>
                 <div className="social">

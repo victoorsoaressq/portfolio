@@ -32,13 +32,13 @@ function App() {
             <h2>Quem sou eu</h2>
 
             <p>
-              Olá, meu nome é Victor e sou <span> Desenvolvedor Front-end & IOS</span>,
+              Olá, meu nome é Victor e sou <span> Desenvolvedor Front-end.</span>,
             </p>
             <p>
-              gosto de ver o mundo através de linhas de códigos, com bastante estudo e criatividade crio e copio APPs em busca de me tornar um especialista em IOS.
+              Gosto de ver o mundo através de linhas de códigos, com bastante estudo e criatividade crio e copio sites em busca de me tornar um especialista em desenvolvimento web.
             </p>
             <p>
-              Utilizo linguagens como <span>Swift</span>, <span>SwiftUI</span>, <span>JavaScript</span> para criar meus projetos e trabalhos. Com experiência em biblioteca <span>React</span> e pre-processador <span>SASS</span>, para criar as mais diversas páginas web.
+              Utilizo linguagens como <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span> para criar meus projetos e trabalhos. Com experiência em biblioteca <span>React</span> e pre-processador <span>SASS</span>, para criar as mais diversas páginas web.
             </p>
 
             <div className='button'>
@@ -72,6 +72,9 @@ function App() {
               </span>
               <span>
                 React
+              </span>
+              <span>
+                Node
               </span>
               <span>
                 SASS

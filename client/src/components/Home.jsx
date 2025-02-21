@@ -10,7 +10,7 @@ function Home() {
                 <img src={IMG} alt="Victor" />
                 <h2>Olá, meu nome é Victor</h2>
                 <div className='title_apple'>
-                    <p>Desenvolvedor Front-end & IOS</p>
+                    <p>Desenvolvedor Front-end</p>
                 </div>
 
                 <span>Transformando imaginação em codigo!</span>
